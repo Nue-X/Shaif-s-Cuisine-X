@@ -1,0 +1,119 @@
+/* page title styles */
+#page-title{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.page-title{
+    font-size: 2.2rem;
+    color: var(--black-1);
+    font-weight: 700;
+}
+@media only screen and (min-width: 768px){
+    #page-title{
+        padding-top: 5rem;
+        padding-bottom: 3rem;
+    }
+    .page-title{
+        font-size: 3.6rem;
+    }
+}
+#specials{
+    padding: 0;
+}
+.specials-title{
+    font-size: 1.8em;
+    color: var(--black-1);
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+.specials-wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 1.5rem;
+}
+.specials-item{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: var(--light-green-1);
+    gap: 2rem;
+    flex: 1;
+    padding: 1rem;
+    border-radius: 8px;
+}
+.specials-item-img{
+    flex: 1;
+}
+.specials-item-info{
+    flex: 1;
+}
+.specials-item-img img{
+    border-radius: 8px;
+    object-fit: cover;
+}
+.specials-item-title{
+    font-size: 1.8rem;
+    color: var(--black-1);
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+.specials-item-price{
+    font-size: 1.4rem;
+    color: var(--green-1);
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.specials-item-star{
+    height: 15px;
+    width: max-content;
+}
+@media only screen and (min-width: 768px){
+    .specials-title{
+        font-size: 2.8rem;
+        font-weight: 900;
+        margin-bottom: 3rem;
+    }
+    .specials-wrapper{
+        flex-direction: row;
+        gap: 2.5rem;
+        max-width: none;
+    }
+    .specials-item{
+        gap: 2rem;
+        padding: 2.5rem;
+        border-radius: 12px;
+    }
+    .specials-item-img img{
+        border-radius: 12px;
+    }
+    .specials-item-title{
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+        font-weight: 700;
+    }
+    .specials-item-price{
+        font-size: 2.4rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+}
+@media only screen and (min-width: 1100px){
+    .specials-item-img{
+        flex: 4;
+    }
+    .specials-item-info{
+        flex: 3;
+    }
+}
+/* End page title styles */
+
+/* Dishes style */
+#top-dish{
+    padding-bottom: 0;
+}
+#top-dish:last-of-type{
+    padding-bottom: 10rem;
+}
+/* End Dishes style */

@@ -1,0 +1,110 @@
+/* Our Story Styles */
+.our-story-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+}
+.story-info-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--black-1);
+    margin-bottom: .5rem;
+}
+.story-info-subtitle{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--black-1);
+    margin-bottom: 1rem;
+    font-family: 'Raleway';
+}
+.story-info-text{
+    font-size: 1.4rem;
+    color: var(--black-2);
+    max-width: 500px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px){
+    .our-story-wrapper{
+        flex-direction: row;
+        text-align: left;
+        gap: 4rem;
+    }
+    .story-info-title{
+        font-size: 3.6rem;
+        font-weight: 900;
+        margin-bottom: 1rem;
+    }
+    .story-info-subtitle{
+        font-size: 1.6rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+    .story-info-text{
+        font-size: 1.8rem;
+        max-width: 800px;
+        margin: 0;
+        line-height: 1.5em;
+    }
+    .story-img-wrapper{
+        flex: 1;
+    }
+    .story-info{
+        flex: 1;
+    }
+}
+/* End Our Story Styles */
+
+/* Our Goals Styles */
+.goals{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.goal-info{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.goal-title{
+    font-size: 2.6rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--black-1);
+}
+.goal-text{
+    font-size: 1.4rem;
+    color: var(--black-2);
+}
+.goal-img-wrapper img{
+    object-fit: cover;
+}
+.goal-img-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.goal-img1{
+    grid-row: 1/3;
+}
+@media only screen and (min-width: 768px){
+    .goals{
+        gap: 5rem;
+    }
+    .goal-info{
+        max-width: 750px;
+    }
+    .goal-title{
+        font-size: 3.6rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+    }
+    .goal-text{
+        font-size: 1.8rem;
+        line-height: 1.5em;
+    }
+}
+/* End Our Goals Styles */
